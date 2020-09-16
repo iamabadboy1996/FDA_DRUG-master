@@ -63,7 +63,7 @@
           }
           function spin_space() { // คำสั่งสั่งปิด PopUp
               //    alert('123456');
-              $('#spinner').toggle('slow');
+              $('#spinner').toggle('slow'); 
               //$('#myModal').modal('hide');
               //$('#ContentPlaceHolder1_Button2').click(); // ตัวอย่างให้คำสั่งปุ่มที่ซ่อนอยู่ Click
 

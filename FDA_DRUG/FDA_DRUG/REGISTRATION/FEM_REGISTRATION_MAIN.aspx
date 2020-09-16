@@ -149,8 +149,7 @@
 
    <hr />
    <div>
-
-   <telerik:RadGrid ID="Rg_regist" runat="server" AllowPaging="true" PageSize="15" AllowFilteringByColumn="True">
+<telerik:RadGrid ID="Rg_regist" runat="server" AllowPaging="true" PageSize="15" AllowFilteringByColumn="True">
                <MasterTableView AutoGenerateColumns="False">
                    <Columns>
                        <telerik:GridBoundColumn DataField="H_IDA" DataType="System.Int32" FilterControlAltText="Filter H_IDA column" HeaderText="H_IDA"
@@ -186,6 +185,7 @@
                    </Columns>
                </MasterTableView>
            </telerik:RadGrid>
+   
 
        <%--<asp:GridView ID="GV_data" DataKeyNames="IDA" runat="server" Width="100%" CssClass="table" CellPadding="4" ForeColor="#333333"
            GridLines="None" AutoGenerateColumns="False" AllowPaging="True" PageSize="20" Font-Size="10pt">

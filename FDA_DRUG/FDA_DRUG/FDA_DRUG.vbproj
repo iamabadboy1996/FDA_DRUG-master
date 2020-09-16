@@ -97,15 +97,15 @@
     <Reference Include="System.EnterpriseServices" />
     <Reference Include="Telerik.Web.Design, Version=2010.3.1317.40, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Telerik.Web.Design.dll</HintPath>
+      <HintPath>..\..\..\FDA_DRUG_HERB-master\FDA_DRUG_HERB\bin\Telerik.Web.Design.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Web.UI, Version=2013.2.717.35, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Telerik.Web.UI.dll</HintPath>
+      <HintPath>..\..\..\FDA_DRUG_HERB-master\FDA_DRUG_HERB\bin\Telerik.Web.UI.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Web.UI.Skins, Version=2013.2.717.35, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Telerik.Web.UI.Skins.dll</HintPath>
+      <HintPath>..\..\..\FDA_DRUG_HERB-master\FDA_DRUG_HERB\bin\Telerik.Web.UI.Skins.dll</HintPath>
     </Reference>
     <Reference Include="zxing, Version=0.15.0.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -795,6 +795,7 @@
     <Content Include="MAIN_STAFF\FRM_REPLACEMENT_LICENSE_LOCATION_MENU2.aspx" />
     <Content Include="MAIN_STAFF\FRM_STAFF_REPLACEMENT_LICENSE_MAIN_V2.aspx" />
     <Content Include="MAIN_STAFF\FRM_STAFF_REPLACEMENT_LICENSE_PANEL_CHOOSE.aspx" />
+    <Content Include="NEW_DRUG_IMPORT_STAFF\FRM_DRUG_IMPORT_MAIN_STAFF.aspx" />
     <Content Include="PDF\FRM_PDF_VIEW.aspx" />
     <Content Include="PDF\FRM_REPORT_RDLC.aspx" />
     <Content Include="PDF\FRM_RPT_PDF.aspx" />
@@ -3223,6 +3224,13 @@
     <Compile Include="MasterPage\MAIN_STAFF_MAIN.Master.vb">
       <DependentUpon>MAIN_STAFF_MAIN.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NEW_DRUG_IMPORT_STAFF\FRM_DRUG_IMPORT_MAIN_STAFF.aspx.designer.vb">
+      <DependentUpon>FRM_DRUG_IMPORT_MAIN_STAFF.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NEW_DRUG_IMPORT_STAFF\FRM_DRUG_IMPORT_MAIN_STAFF.aspx.vb">
+      <DependentUpon>FRM_DRUG_IMPORT_MAIN_STAFF.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="PDF\FRM_PDF_VIEW.aspx.designer.vb">
       <DependentUpon>FRM_PDF_VIEW.aspx</DependentUpon>
